@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    align-self: center;
+    position: absolute;
+    right: 5em;
+}
