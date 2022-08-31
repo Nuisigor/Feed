@@ -10,7 +10,7 @@ interface Posts {
 
 export default function PostList(props: Posts) {
   return (
-    <>
+    <div className="PostList">
       {props.posts.map((postData) => (
         <Paper elevation={6} variant="outlined" className="Post">
           <div class="Info">
@@ -36,6 +36,6 @@ export default function PostList(props: Posts) {
           </div>
         </Paper>
       ))}
-    </>
+    </div>
   );
 }

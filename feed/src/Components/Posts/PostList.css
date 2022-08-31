@@ -1,7 +1,7 @@
 .Post {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 85%;
   min-width: 20%;
   margin: 10px auto;
   padding: 20px 5px;
