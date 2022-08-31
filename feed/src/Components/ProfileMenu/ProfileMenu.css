@@ -1,0 +1,17 @@
+.ProfileMenu img {
+  max-width: 80%;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.ProfileMenu {
+  width: 90%;
+  justify-self: center;
+}
+
+.PaperMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: initial;
+}

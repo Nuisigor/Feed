@@ -1,63 +1,59 @@
-.Post{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    min-width: 20%;
-    margin: 10px auto;
-    padding: 20px 5px;
-    border: 1px;
-    border: solid;
-    border-color: black;
-    border-radius: 10%;
+.Post {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  min-width: 20%;
+  margin: 10px auto;
+  padding: 20px 5px;
 }
 
-.Data{
-    word-break: break-word;
-    align-self: center;
-    width: 80%;
+.Data {
+  word-break: break-word;
+  align-self: center;
+  width: 80%;
 }
 
-.Info{
-    display: flex;
-    gap: 5%;
-    padding: 0 0 0 1em;
+.Info {
+  display: flex;
+  gap: 5%;
+  padding: 0 0 0 1em;
 }
 
-.Infoimg img{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+.Infoimg img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
 
-.Infodata{
-    display: flex;
-    flex-direction: column;
+.Infodata {
+  display: flex;
+  flex-direction: column;
 }
 
-.Infodata p{
-    margin: 2px 0;
+.Infodata p {
+  margin: 2px 0;
 }
 
-.Infodata .date{
-    color: rgb(100, 100, 100);
+.Infodata .date {
+  color: rgb(100, 100, 100);
 }
 
-.PostImage{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    align-self: center;
+.PostImage {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  align-self: center;
 }
 
-.Image{
-    display: block;
-    height: 200px;
-    line-height: 200px;
-    overflow: hidden;
-    object-fit: cover;
-    width: 200px;
+.Image {
+  display: block;
+  height: 200px;
+  line-height: 200px;
+  overflow: hidden;
+  object-fit: cover;
+  width: 200px;
 }
 
-.Image:hover{
-    opacity: 0.7;
+.Image:hover {
+  opacity: 0.7;
 }
