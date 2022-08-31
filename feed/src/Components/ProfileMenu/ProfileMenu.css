@@ -2,16 +2,31 @@
   max-width: 80%;
   border-radius: 50%;
   align-self: center;
+  margin: 10% 10% 0 10%
 }
 
 .ProfileMenu {
   width: 90%;
-  justify-self: center;
+  justify-self: end;
 }
 
 .PaperMenu {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.Name{
+  align-self: center;
+}
+
+.Links{
+  display: flex;
+  flex-direction: column;
   text-align: initial;
+  margin: 10% 0;
+}
+
+.Links a{
+  margin: 10% 0 0 5%;
 }
